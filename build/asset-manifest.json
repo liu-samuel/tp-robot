@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tp-robot/static/css/main.b6fb6daa.css",
+    "main.css": "/tp-robot/static/css/main.8a11528f.css",
     "main.js": "/tp-robot/static/js/main.3348d309.js",
     "static/js/377.7a023f95.chunk.js": "/tp-robot/static/js/377.7a023f95.chunk.js",
     "index.html": "/tp-robot/index.html",
-    "main.b6fb6daa.css.map": "/tp-robot/static/css/main.b6fb6daa.css.map",
+    "main.8a11528f.css.map": "/tp-robot/static/css/main.8a11528f.css.map",
     "main.3348d309.js.map": "/tp-robot/static/js/main.3348d309.js.map",
     "377.7a023f95.chunk.js.map": "/tp-robot/static/js/377.7a023f95.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6fb6daa.css",
+    "static/css/main.8a11528f.css",
     "static/js/main.3348d309.js"
   ]
 }
