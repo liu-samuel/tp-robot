@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import Room from './Room';
 const { connect } = require('twilio-video');
 
+
 class App extends Component {
     constructor(props) {
         super(props)
@@ -28,7 +29,7 @@ class App extends Component {
           const room = await connect(data.accessToken, {
             name: 'cool room',
             audio: true,
-            video: true
+            video: {width: window.screen.width, height: window.screen.height} 
           });
       
           this.setState({ room: room });
