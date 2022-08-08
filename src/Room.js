@@ -48,7 +48,7 @@ class Room extends Component {
           <div className="room">
             <div className = "participants">
               
-              <Participant key={this.props.room.localParticipant.identity} localParticipant="true" participant={this.props.room.localParticipant}/>
+              {/* <Participant key={this.props.room.localParticipant.identity} localParticipant="true" participant={this.props.room.localParticipant}/> */}
               {
                 this.state.remoteParticipants.map(participant => 
                   <Participant key={participant.identity} participant={participant}/>
